@@ -16,7 +16,7 @@ align-content: center;
 }
 
 .card{
-height: 370px;
+/* height: 370px; */
 margin-top: auto;
 margin-bottom: auto;
 width: 400px;
@@ -33,9 +33,15 @@ color: #FFC312;
 color: white;
 cursor: pointer;
 }
-
+.card-header {
+  align-self: center;
+}
 .card-header h3{
 color: white;
+}
+
+.card-body {
+  margin-top: -20;
 }
 
 .social_icon{
@@ -72,7 +78,7 @@ margin-right: 5px;
 .login_btn{
 color: black;
 background-color: #FFC312;
-width: 100px;
+width: 100%;
 }
 
 .login_btn:hover{
@@ -87,3 +93,4 @@ color: white;
 .links a{
 margin-left: 4px;
 }
+
